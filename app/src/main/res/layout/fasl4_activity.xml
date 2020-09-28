@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn35"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ساختار دستور if"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn36"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ساختار های شرطی"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn37"
+                android:layout_width="98dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="دستور elseif"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn38"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ساختار if تو در تو"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn39"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ساختارهای حلقه"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn40"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="دستور swich"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn41"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="دستور while do"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn42"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="دستور while"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="53dp"
+                android:layout_height="92dp"
+                android:layout_weight="1"
+                android:text="دستور foreach" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="69dp"
+                android:layout_height="92dp"
+                android:layout_weight="1"
+                android:text="دستور for" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn45"
+                android:layout_width="40dp"
+                android:layout_height="99dp"
+                android:layout_weight="1"
+                android:text="حلقه های تو در تو"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn46"
+                android:layout_width="56dp"
+                android:layout_height="98dp"
+                android:layout_weight="1"
+                android:text="دستورات break و continue"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
